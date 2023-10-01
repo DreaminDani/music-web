@@ -32,6 +32,12 @@
 		link="https://open.spotify.com/artist/47mXmNmm2ekoxyCwowItaX?si=fVM4Puc9TFmu1Bcxb5C7hg"
 	/>
 </div>
+<div class="contact">
+	<p>Contact info:</p>
+	<p>Daniel (Dani) Sandoval</p>
+	<p>hi@dreamindani.com</p>
+	<p>danielericsandoval@gmail.com</p>
+</div>
 
 <style>
 	:global(body) {
@@ -50,6 +56,10 @@
 		display: flex;
 		width: 100%;
 		gap: 24px;
+	}
+	.contact p {
+		color: #000000;
+		font-family: Raleway;
 	}
 	@media (max-width: 800px) {
 		:global(body) {
