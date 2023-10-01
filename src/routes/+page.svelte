@@ -1,6 +1,5 @@
 <script>
 	import Band from '$lib/Band.svelte';
-	import Circle from '$lib/Circle.svelte';
 	import TopCircle from '$lib/TopCircle.svelte';
 </script>
 
@@ -33,9 +32,9 @@
 	/>
 </div>
 <div class="contact">
-	<p>Contact info:</p>
+	<p><strong>Contact Info:</strong></p>
 	<p>Daniel (Dani) Sandoval</p>
-	<p>hi@dreamindani.com</p>
+	<p><a href="mailto:hi@dreamindani.com">hi@dreamindani.com</a> (Primary)</p>
 	<p>danielericsandoval@gmail.com</p>
 </div>
 
@@ -57,9 +56,22 @@
 		width: 100%;
 		gap: 24px;
 	}
+	.contact {
+		padding-top: 40px;
+		text-align: right;
+	}
 	.contact p {
 		color: #000000;
 		font-family: Raleway;
+		margin: 4px 0;
+	}
+	.contact a {
+		text-decoration: none;
+		font-weight: 700;
+		color: #5ea03b;
+	}
+	.contact a:hover {
+		color: #cb566f;
 	}
 	@media (max-width: 800px) {
 		:global(body) {
