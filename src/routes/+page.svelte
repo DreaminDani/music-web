@@ -1,8 +1,11 @@
 <script>
 	import Band from '$lib/Band.svelte';
+	import Circle from '$lib/Circle.svelte';
+	import TopCircle from '$lib/TopCircle.svelte';
 </script>
 
 <h1>My Music</h1>
+<TopCircle />
 <div class="container">
 	<Band
 		img="puppy.jpg"
@@ -54,6 +57,7 @@
 		}
 		.container {
 			flex-direction: column;
+			margin-bottom: 56px;
 		}
 		h1 {
 			font-size: 40px;
