@@ -10,7 +10,7 @@
 		img="puppy.jpg"
 		name="Puppy on Parade"
 		years="2023–Present"
-		link="https://open.spotify.com/artist/4uTDRgVhgPJx7jv3s7ZEGM"
+		link="https://puppyonparade.bandcamp.com/"
 	/>
 	<Band
 		img="life.jpg"
